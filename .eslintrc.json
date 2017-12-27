@@ -1,0 +1,15 @@
+{
+    "extends": "eslint-config-fluid",
+    "globals": {
+        "fluid": true,
+        "flock": true
+    },
+
+    "env": {
+        "browser": "true"
+    },
+
+    "rules": {
+        "strict": [2, "global"]
+    }
+}

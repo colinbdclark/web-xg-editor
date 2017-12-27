@@ -1,0 +1,694 @@
+{
+    "bankGroups": {
+        "0": {
+            "name": "XG Normal",
+            "type": "instrument",
+            "bankNames": {
+                "0": "General MIDI",
+                "1": "Key Scale Panning",
+                "3": "Stereo",
+                "6": "Single",
+                "8": "Slow",
+                "12": "Fast Decay",
+                "14": "Double Attack",
+                "16": "Bright",
+                "17": "Bright",
+                "18": "Dark",
+                "19": "Dark",
+                "20": "Resonant",
+                "24": "Attack",
+                "25": "Release",
+                "27": "Reso Sweep",
+                "28": "Muted",
+                "32": "Detune 1",
+                "33": "Detune 2",
+                "34": "Detune 3",
+                "35": "Octave 1",
+                "36": "Octave 2",
+                "37": "5th 1",
+                "38": "5th 2",
+                "39": "Bend",
+                "40": "Tutti",
+                "41": "Tutti",
+                "42": "Tutti",
+                "43": "Velo-Switch",
+                "45": "Velo-Xfade",
+                "64": "Other wave",
+                "65": "Other wave",
+                "66": "Other wave",
+                "67": "Other wave",
+                "68": "Other wave",
+                "69": "Other wave",
+                "70": "Other wave",
+                "71": "Other wave",
+                "72": "Other wave",
+                "96": "Other wave",
+                "97": "Other wave",
+                "98": "Other wave",
+                "99": "Other wave",
+                "100": "Other wave",
+                "101": "Other wave"
+            },
+
+            "voiceGroups": [
+                {
+                    "name": "Piano",
+                    "voices": [
+                        {
+                            "name": "GrandPno",
+                            "program": 1,
+                            "bank": 0,
+                            "numElements": 1
+                        },
+                        {
+                            "name": "GrndPnoK",
+                            "program": 1,
+                            "bank": 1,
+                            "numElements": 1
+                        },
+                        {
+                            "name": "MelloGrP",
+                            "program": 1,
+                            "bank": 18,
+                            "numElements": 1
+                        },
+                        {
+                            "name": "PianoStr",
+                            "program": 1,
+                            "bank": 40,
+                            "numElements": 2
+                        },
+                        {
+                            "name": "Dream",
+                            "program": 1,
+                            "bank": 41,
+                            "numElements": 2
+                        },
+                        {
+                            "name": "BritePno",
+                            "program": 2,
+                            "bank": 0,
+                            "numElements": 1
+                        },
+                        {
+                            "name": "BritPnoK",
+                            "program": 2,
+                            "bank": 1,
+                            "numElements": 1
+                        },
+                        {
+                            "name": "E.Grand",
+                            "program": 3,
+                            "bank": 0,
+                            "numElements": 2
+                        },
+                        {
+                            "name": "ElGrPnoK",
+                            "program": 3,
+                            "bank": 1,
+                            "numElements": 2
+                        },
+                        {
+                            "name": "Det.CP80",
+                            "program": 3,
+                            "bank": 32,
+                            "numElements": 2
+                        },
+                        {
+                            "name": "ElGrPno1",
+                            "program": 3,
+                            "bank": 40,
+                            "numElements": 2
+                        },
+                        {
+                            "name": "ElGrPno2",
+                            "program": 3,
+                            "bank": 41,
+                            "numElements": 2
+                        },
+                        {
+                            "name": "HnkyTonk",
+                            "program": 4,
+                            "bank": 0,
+                            "numElements": 2
+                        },
+                        {
+                            "name": "HnkyTnkK",
+                            "program": 4,
+                            "bank": 1,
+                            "numElements": 2
+                        },
+                        {
+                            "name": "E.Piano1",
+                            "program": 5,
+                            "bank": 0,
+                            "numElements": 2
+                        },
+                        {
+                            "name": "El.Pno1K",
+                            "program": 5,
+                            "bank": 1,
+                            "numElements": 1
+                        },
+                        {
+                            "name": "MelloEP1",
+                            "program": 5,
+                            "bank": 18,
+                            "numElements": 2
+                        },
+                        {
+                            "name": "Chor.EP1",
+                            "program": 5,
+                            "bank": 32,
+                            "numElements": 2
+                        },
+                        {
+                            "name": "HardEl.P",
+                            "program": 5,
+                            "bank": 40,
+                            "numElements": 2
+                        },
+                        {
+                            "name": "VX El.P1",
+                            "program": 5,
+                            "bank": 45,
+                            "numElements": 2
+                        },
+                        {
+                            "name": "60sEl.P",
+                            "program": 5,
+                            "bank": 64,
+                            "numElements": 1
+                        },
+                        {
+                            "name": "E.Piano2",
+                            "program": 6,
+                            "bank": 0,
+                            "numElements": 2
+                        },
+                        {
+                            "name": "El.Pno2K",
+                            "program": 6,
+                            "bank": 1,
+                            "numElements": 1
+                        },
+                        {
+                            "name": "Chor.EP2",
+                            "program": 6,
+                            "bank": 32,
+                            "numElements": 2
+                        },
+                        {
+                            "name": "DX Hard",
+                            "program": 6,
+                            "bank": 33,
+                            "numElements": 2
+                        },
+                        {
+                            "name": "DXLegend",
+                            "program": 6,
+                            "bank": 34,
+                            "numElements": 2
+                        },
+                        {
+                            "name": "DX Phase",
+                            "program": 6,
+                            "bank": 40,
+                            "numElements": 2
+                        },
+                        {
+                            "name": "DX+Analg",
+                            "program": 6,
+                            "bank": 41,
+                            "numElements": 2
+                        },
+                        {
+                            "name": "DXKotoEP",
+                            "program": 6,
+                            "bank": 42,
+                            "numElements": 2
+                        },
+                        {
+                            "name": "VX El.P2",
+                            "program": 6,
+                            "bank": 45,
+                            "numElements": 2
+                        },
+                        {
+                            "name": "Harpsi.",
+                            "program": 7,
+                            "bank": 0,
+                            "numElements": 1
+                        },
+                        {
+                            "name": "Harpsi.K",
+                            "program": 7,
+                            "bank": 1,
+                            "numElements": 1
+                        },
+                        {
+                            "name": "Harpsi.2",
+                            "program": 7,
+                            "bank": 25,
+                            "numElements": 2
+                        },
+                        {
+                            "name": "Harpsi.3",
+                            "program": 7,
+                            "bank": 35,
+                            "numElements": 2
+                        },
+                        {
+                            "name": "Clavi.",
+                            "program": 8,
+                            "bank": 0,
+                            "numElements": 2
+                        },
+                        {
+                            "name": "Clavi. K",
+                            "program": 8,
+                            "bank": 1,
+                            "numElements": 1
+                        },
+                        {
+                            "name": "ClaviWah",
+                            "program": 8,
+                            "bank": 27,
+                            "numElements": 2
+                        },
+                        {
+                            "name": "PulseClv",
+                            "program": 8,
+                            "bank": 64,
+                            "numElements": 1
+                        },
+                        {
+                            "name": "PierceCl",
+                            "program": 8,
+                            "bank": 65,
+                            "numElements": 2
+                        }
+                    ]
+                },
+
+                {
+                    "name": "Chromatic Percussion",
+                    "voices": [
+
+                    ]
+                },
+                {
+                    "name": "Organ",
+                    "voices": [
+
+                    ]
+                },
+
+                {
+                    "name": "Guitar",
+                    "voices": [
+
+                    ]
+                },
+
+                {
+                    "name": "Bass",
+                    "voices": [
+
+                    ]
+                },
+
+            	{
+                    "name": "Strings",
+                    "voices": [
+
+                    ]
+                },
+
+            	{
+                    "name": "Ensemble",
+                    "voices": [
+
+                    ]
+                },
+
+                {
+                    "name": "Brass",
+                    "voices": [
+
+                    ]
+                },
+
+                {
+                    "name": "Reed",
+                    "voices": [
+
+                    ]
+                },
+
+                {
+                    "name": "Pipe",
+                    "voices": [
+
+                    ]
+                },
+
+                {
+                    "name": "Synth Lead",
+                    "voices": [
+
+                    ]
+                },
+
+                {
+                    "name": "Synth Pad",
+                    "voices": [
+
+                    ]
+                },
+
+                {
+                    "name": "Synth Effects",
+                    "voices": [
+
+                    ]
+                },
+
+                {
+                    "name": "Ethnic",
+                    "voices": [
+
+                    ]
+                },
+
+                {
+                    "name": "Percussive",
+                    "voices": [
+
+                    ]
+                },
+
+                {
+                    "name": "Sound Effects",
+                    "voices": [
+
+                    ]
+                }
+            ]
+        },
+
+        "64": {
+            "name": "SFX",
+            "type": "instrment",
+            "voices": []
+        },
+
+        "63": {
+            "name": "QS300",
+            "type": "instrument",
+            "voices": [
+                {
+                    "name": "User Normal Voice 1",
+                    "program": 1,
+                    "bank": 0
+                },
+                {
+                    "name": "User Normal Voice 2",
+                    "program": 2,
+                    "bank": 0
+                },
+                {
+                    "name": "User Normal Voice 3",
+                    "program": 3,
+                    "bank": 0
+                },
+                {
+                    "name": "User Normal Voice 4",
+                    "program": 4,
+                    "bank": 0
+                },
+                {
+                    "name": "User Normal Voice 5",
+                    "program": 5,
+                    "bank": 0
+                },
+                {
+                    "name": "User Normal Voice 6",
+                    "program": 6,
+                    "bank": 0
+                },
+                {
+                    "name": "User Normal Voice 7",
+                    "program": 7,
+                    "bank": 0
+                },
+                {
+                    "name": "User Normal Voice 8",
+                    "program": 8,
+                    "bank": 0
+                },
+                {
+                    "name": "User Normal Voice 9",
+                    "program": 9,
+                    "bank": 0
+                },
+                {
+                    "name": "User Normal Voice 10",
+                    "program": 10,
+                    "bank": 0
+                },
+                {
+                    "name": "User Normal Voice 11",
+                    "program": 11,
+                    "bank": 0
+                },
+                {
+                    "name": "User Normal Voice 12",
+                    "program": 12,
+                    "bank": 0
+                },
+                {
+                    "name": "User Normal Voice 13",
+                    "program": 13,
+                    "bank": 0
+                },
+                {
+                    "name": "User Normal Voice 14",
+                    "program": 14,
+                    "bank": 0
+                },
+                {
+                    "name": "User Normal Voice 15",
+                    "program": 15,
+                    "bank": 0
+                },
+                {
+                    "name": "User Normal Voice 16",
+                    "program": 16,
+                    "bank": 0
+                },
+                {
+                    "name": "User Normal Voice 17",
+                    "program": 17,
+                    "bank": 0
+                },
+                {
+                    "name": "User Normal Voice 18",
+                    "program": 18,
+                    "bank": 0
+                },
+                {
+                    "name": "User Normal Voice 19",
+                    "program": 19,
+                    "bank": 0
+                },
+                {
+                    "name": "User Normal Voice 20",
+                    "program": 20,
+                    "bank": 0
+                },
+                {
+                    "name": "User Normal Voice 21",
+                    "program": 21,
+                    "bank": 0
+                },
+                {
+                    "name": "User Normal Voice 22",
+                    "program": 22,
+                    "bank": 0
+                },
+                {
+                    "name": "User Normal Voice 23",
+                    "program": 23,
+                    "bank": 0
+                },
+                {
+                    "name": "User Normal Voice 24",
+                    "program": 24,
+                    "bank": 0
+                },
+                {
+                    "name": "User Normal Voice 25",
+                    "program": 25,
+                    "bank": 0
+                },
+                {
+                    "name": "User Normal Voice 26",
+                    "program": 26,
+                    "bank": 0
+                },
+                {
+                    "name": "User Normal Voice 27",
+                    "program": 27,
+                    "bank": 0
+                },
+                {
+                    "name": "User Normal Voice 28",
+                    "program": 28,
+                    "bank": 0
+                },
+                {
+                    "name": "User Normal Voice 29",
+                    "program": 29,
+                    "bank": 0
+                },
+                {
+                    "name": "User Normal Voice 30",
+                    "program": 30,
+                    "bank": 0
+                },
+                {
+                    "name": "User Normal Voice 31",
+                    "program": 31,
+                    "bank": 0
+                },
+                {
+                    "name": "User Normal Voice 32",
+                    "program": 32,
+                    "bank": 0
+                }
+            ]
+        },
+
+        "127": {
+            "name": "Drums",
+            "type": "drum",
+            "voices": [
+                {
+                    "name": "Standard Kit",
+                    "drumKeyMap": {
+                        	"13": "Surdo Mute",
+                            "14": "Surdo Open",
+                        	"15": "Hi Q",
+                        	"16": "Whip Slap",
+                        	"17": "Scratch Push",
+                        	"18": "Scratch Pull",
+                        	"19": "Finger Snap",
+                        	"20": "Click Noise",
+                        	"21": "Metronome Click",
+                        	"22": "Metronome Bell",
+                        	"23": "Seq Click L",
+                        	"24": "Seq Click H",
+                        	"25": "Brush Tap",
+                        	"26": "Brush Swirl L",
+                        	"27": "Brush Slap",
+                        	"28": "Brush Swirl H",
+                        	"29": "Snare Roll",
+                        	"30": "Castanet",
+                        	"31": "Snare L",
+                        	"32": "Sticks",
+                        	"33": "Bass Drum L",
+                        	"34": "Open Rim Shot",
+                        	"35": "Bass Drum M",
+                        	"36": "Bass Drum H",
+                        	"37": "Side Stick",
+                        	"38": "Snare M",
+                        	"39": "Hand Clap",
+                        	"40": "Snare H",
+                        	"41": "Floor Tom L",
+                        	"42": "Hi-Hat Closed",
+                        	"43": "Floor Tom H",
+                        	"44": "Hi-Hat Pedal",
+                        	"45": "Low Tom",
+                        	"46": "Hi-Hat Open",
+                        	"47": "Mid Tom L",
+                        	"48": "Mid Tom H",
+                        	"49": "Crash Cymbal 1",
+                        	"50": "High Tom",
+                        	"51": "Ride Cymbal 1",
+                        	"52": "Chinese Cymbal",
+                        	"53": "Ride Cymbal Cup",
+                        	"54": "Tambourine",
+                        	"55": "Splash Cymbal",
+                        	"56": "Cowbell",
+                        	"57": "Crash Cymbal 2",
+                        	"58": "Vibraslap",
+                        	"59": "Ride Cymbal 2",
+                        	"60": "Bongo H",
+                        	"61": "Bongo L",
+                        	"62": "Conga H Mute",
+                        	"63": "Conga H Open",
+                        	"64": "Conga L",
+                        	"65": "Timbale H",
+                        	"66": "Timbale L",
+                        	"67": "Agogo H",
+                        	"68": "Agogo L",
+                        	"69": "Cabasa",
+                        	"70": "Maracas",
+                        	"71": "Samba Whistle H",
+                        	"72": "Samba Whistle L",
+                        	"73": "Guiro Short",
+                        	"74": "Guiro Long",
+                        	"75": "Claves",
+                        	"76": "Wood Block H",
+                        	"77": "Wood Block L",
+                        	"78": "Cuica Mute",
+                        	"79": "Cuica Open",
+                        	"80": "Triangle Mute",
+                        	"81": "Triangle Open",
+                        	"82": "Shaker",
+                        	"83": "Jingle Bell",
+                        	"84": "Bell Tree"
+                    }
+                },
+                {
+                    "name": "Standard2 Kit"
+                },
+                {
+                    "name": "Room Kit"
+                },
+                {
+                    "name": "Rock Kit"
+                },
+                {
+                    "name": "Electro Kit"
+                },
+                {
+                    "name": "Analog Kit"
+                },
+                {
+                    "name": "Jazz Kit"
+                },
+                {
+                    "name": "Brush Kit"
+                },
+                {
+                    "name": "Classic Kit"
+                }
+            ]
+        },
+
+        "126": {
+            "name": "Drum SFX",
+            "type": "drum",
+            "voices": [
+                {
+                    "name": "SFX 1"
+                },
+                {
+                    "name": "SFX 2"
+                }
+            ]
+        }
+    }
+}

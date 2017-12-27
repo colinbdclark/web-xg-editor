@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Web XG Editor</title>
+
+        <script src="node_modules/flocking/dist/flocking-all.js"></script>
+        <script src="node_modules/flocking/src/ui/selectbox/js/selectbox.js"></script>
+        <script src="node_modules/flocking/src/ui/midi/midi-connector/js/midi-connector.js"></script>
+        <script src="node_modules/flocking/src/ui/midi/midi-port-selector/js/midi-port-selector.js"></script>
+
+        <script src="src/js/sysex-device.js"></script>
+        <script src="src/js/yamaha-xg-device.js"></script>
+        <script src="src/js/part.js"></script>
+
+        <script src="src/js/xg-editor.js"></script>
+    </head>
+    <body>
+        <div class="flock-xgEditor">
+            <div class="flock-midiPortSelector"></div>
+        </div>
+
+        <script>
+            window.xgEditor = flock.midi.xgEditor(".flock-xgEditor");
+        </script>
+    </body>
+</html>
